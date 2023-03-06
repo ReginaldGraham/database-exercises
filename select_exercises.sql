@@ -12,5 +12,6 @@ SELECT 'Nevermind genre',
 SELECT 'albums released in the 1990s',
        name_ FROM albums WHERE release_date>1990 &&release_date<2000;
 
-SELECT 'albums with less than 20 million sales',
-       name_ FROM albums WHERE sales<20;
+SELECT 'albums with less than 20 million sales...' AS '=============Exercise 5';
+       SELECT  name_ FROM albums
+                WHERE sales<20;
