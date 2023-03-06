@@ -1,4 +1,6 @@
 USE  codeup_test_db;
+
+TRUNCATE albums;
 SELECT * FROM albums;
 
 
