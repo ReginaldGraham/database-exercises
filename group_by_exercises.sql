@@ -7,7 +7,7 @@ from titles;
 
 select first_name, last_name
 from employees
-where last_name like 'e%' and last_name like '%e'
+where last_name like 'e%e'
 group by first_name, last_name;
 
 select  last_name, count(*)
